@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  @apply bg-white shadow-md rounded p-3;
+}
+
+.btn {
+  @apply rounded p-2 duration-200 hover:shadow-md;
+}
+
+.btn-green {
+  @apply bg-green-400 active:bg-green-500 hover:bg-green-300;
+}
+
+.btn-red {
+  @apply bg-red-400 active:bg-red-500;
+}
